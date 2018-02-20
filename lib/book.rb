@@ -1,16 +1,12 @@
 class Book
   attr_accessor :author, :page_count
-  attr_reader :title
+  attr_reader :title :genre
 
   GENRES = []
 
   def ganre=(genre)
     @genre = genre
     GENERS << genre
-  end
-
-  def genre
-    @genre
   end
 
   def initialize(title)
