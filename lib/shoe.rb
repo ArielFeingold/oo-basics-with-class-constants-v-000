@@ -7,7 +7,7 @@ BRANDS = []
     @brand = brand
     brands.each do |brand|
       if BRANDS.include?(brand) = false
-        BRANDS <<
+        BRANDS << brand
       end
     end
   end
