@@ -6,7 +6,7 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
     BRANDS.each do |brand|
-      if BRANDS.include?(brand) = nil
+      if BRANDS.include?(brand) = brand 
         BRANDS <<
       end
     end
@@ -16,5 +16,4 @@ BRANDS = []
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-
 end
