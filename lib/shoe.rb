@@ -9,7 +9,7 @@ BRANDS = []
       if BRANDS.include?(brand) = nil
         BRANDS <<
       end
-    
+    end
   end
 
   def cobble
