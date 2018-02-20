@@ -5,11 +5,12 @@ class Shoe
 BRANDS = []
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |brand|
-      unless BRANDS.include?(brand)
-        BRANDS << brand
-      end
-    end
+    # BRANDS.each do |brand|
+    #   unless BRANDS.include?(brand)
+    #     BRANDS << brand
+    #   end
+    # end
+    BRANDS << brand
   end
 
   def cobble
